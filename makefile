@@ -8,4 +8,6 @@ push_to_ghcr:
 	--password-stdin
 
 pull:
+	# upon running this, you will get all the files in the artifact pulled to disk;
+	# ie in this case, a normal pmtiles file
 	oras pull ghcr.io/c-loftus/cloud_native_geo_oci:latest

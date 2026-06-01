@@ -9,7 +9,7 @@ This repo is a test for ways to package geo native geospatial data inside such a
 - Artifact registries typically utilize an object store as their underlying storage
     - Since object stores support range requests, it is theoretically possible to use a layer within the OCI artifact to store a PMTiles tileset and use it as a pseudo backend.
 - Each push updates historical versions of the artifact and tracks lineage
-    - It is trivial to roll back to historical versions without needing to manage a database or messy nested paths an the object store
+    - It is trivial to roll back to historical versions of data without needing to manage a database or ad-hoc, nested/path-partitioned objects in an object store
 
 ## This Repo
 
